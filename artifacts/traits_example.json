@@ -1,0 +1,60 @@
+{
+  "devices": [
+    {
+      "assignee": "enterprises/",
+      "name": "enterprises/",
+      "parentRelations": [
+        {
+          "displayName": "Family Room",
+          "parent": "enterprises/"
+        }
+      ],
+      "traits": {
+        "sdm.devices.traits.Connectivity": {
+          "status": "ONLINE"
+        },
+        "sdm.devices.traits.Fan": {
+          "timerMode": "OFF"
+        },
+        "sdm.devices.traits.Humidity": {
+          "ambientHumidityPercent": 37
+        },
+        "sdm.devices.traits.Info": {
+          "customName": ""
+        },
+        "sdm.devices.traits.Settings": {
+          "temperatureScale": "FAHRENHEIT"
+        },
+        "sdm.devices.traits.Temperature": {
+          "ambientTemperatureCelsius": 21.37999
+        },
+        "sdm.devices.traits.ThermostatEco": {
+          "availableModes": [
+            "OFF",
+            "MANUAL_ECO"
+          ],
+          "coolCelsius": 27.778,
+          "heatCelsius": 16.21141,
+          "mode": "OFF"
+        },
+        "sdm.devices.traits.ThermostatHvac": {
+          "status": "OFF"
+        },
+        "sdm.devices.traits.ThermostatMode": {
+          "availableModes": [
+            "HEAT",
+            "COOL",
+            "HEATCOOL",
+            "OFF"
+          ],
+          "mode": "HEATCOOL"
+        },
+        "sdm.devices.traits.ThermostatTemperatureSetpoint": {
+          "coolCelsius": 26.45842,
+          "heatCelsius": 21.472015
+        }
+      },
+      "type": "sdm.devices.types.THERMOSTAT"
+    }
+  ]
+}

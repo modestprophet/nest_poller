@@ -1,0 +1,13 @@
+[Unit]
+Description=Nest thermostat polling service
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/local/bin/nest_poller/.venv/bin/python /usr/local/bin/nest_poller/nest_poller.py
+EnvironmentFile=/usr/local/bin/nest_poller/.env
+StandardOutput=syslog
+StandardError=syslog

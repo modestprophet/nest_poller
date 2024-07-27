@@ -1,0 +1,7 @@
+google-api-python-client
+google-auth-oauthlib
+hvac
+pip-chill
+psycopg2
+python-dotenv
+sqlalchemy
